@@ -6,11 +6,11 @@ metadata:
 spec:
   project: training-project
   source:
-    repoURL: https://github.com/REPLACE_ME/REPLACE_ME.git
+    repoURL: https://github.com/rngamon-alt/project-skeleton.git
     targetRevision: HEAD
     # TODO ejercicio 3:
     # Ajustar al path exacto del componente Python.
-    path: project-skeleton/k8s/04-apps
+    path: k8s/04-apps
   destination:
     server: https://kubernetes.default.svc
     namespace: apps

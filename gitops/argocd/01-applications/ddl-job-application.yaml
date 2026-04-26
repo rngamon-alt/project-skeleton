@@ -6,11 +6,11 @@ metadata:
 spec:
   project: training-project
   source:
-    repoURL: https://github.com/REPLACE_ME/REPLACE_ME.git
+    repoURL: https://github.com/rngamon-alt/project-skeleton.git
     targetRevision: HEAD
     # TODO ejercicio 3:
     # Revisar si quieres separar ConfigMap y Job o tratarlos juntos.
-    path: project-skeleton/k8s/03-jobs
+    path: k8s/03-jobs
   destination:
     server: https://kubernetes.default.svc
     namespace: database
