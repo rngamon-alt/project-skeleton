@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     # TODO ejercicio 3:
     # Ajustar al path exacto del componente Java.
-    path: k8s/04-apps
+    path: k8s/04-apps/backend-java
   destination:
     server: https://kubernetes.default.svc
     namespace: apps
